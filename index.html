@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneha Dhir | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f1f5f9;
+      line-height: 1.7;
+    }
+    header {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #111827;
+    }
+    header h2 { color: #67e8f9; margin: 0; }
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    nav a:hover { color: #67e8f9; }
+    section { padding: 65px 10%; }
+    .hero { text-align: center; padding-top: 100px; }
+    .hero h1 { font-size: clamp(36px, 6vw, 58px); margin-bottom: 10px; }
+    .hero h1 span, h2 { color: #67e8f9; }
+    .hero p { max-width: 700px; margin: 15px auto 25px; }
+    .button {
+      display: inline-block;
+      background: #0891b2;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 5px;
+    }
+    .card {
+      background: #111827;
+      border: 1px solid #263449;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 15px 0;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skills span {
+      background: #172b40;
+      color: #a5f3fc;
+      border-radius: 20px;
+      padding: 7px 14px;
+    }
+    a { color: #67e8f9; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+    }
+    @media (min-width: 700px) {
+      .projects { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      .projects .card { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Sneha Dhir</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p>HELLO, I'M</p>
+    <h1>Sneha <span>Dhir</span></h1>
+    <h3>Computer Engineering Student | AI &amp; ML</h3>
+    <p>
+      I am a final-year Computer Engineering student at UPES, Dehradun,
+      interested in technology, software development, and artificial
+      intelligence. I enjoy learning new skills and building projects
+      that solve practical problems.
+    </p>
+    <a class="button" href="#projects">Explore My Projects</a>
+    <a class="button" href="https://linkedin.com/in/sneha-dhir-a01467286"
+       target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      I am pursuing B.Tech in Computer Science and Engineering with a
+      specialization in Artificial Intelligence and Machine Learning
+      at UPES, Dehradun. I am developing my technical, communication,
+      teamwork, and problem-solving skills through academic projects
+      and collaborative activities.
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>Java</span>
+      <span>C</span>
+      <span>SQL</span>
+      <span>Machine Learning</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>scikit-learn</span>
+      <span>MySQL</span>
+      <span>Git &amp; GitHub</span>
+      <span>HTML &amp; CSS</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Sylva</h3>
+        <p>
+          Worked on an OCR-based project and proposed combining two OCR
+          engines rather than relying on a single engine, with the goal
+          of improving text extraction reliability.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Pothole Detection</h3>
+        <p>
+          An AI-based computer vision project focused on detecting
+          potholes in road images using a YOLO object detection pipeline.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Attendance Management System</h3>
+        <p>
+          A Java desktop application designed to support attendance
+          record management.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Electricity Bill Management</h3>
+        <p>
+          A software project focused on managing electricity billing
+          information and related records.
+        </p>
+      </div>
+    </div>
+    <p>Project repositories and demonstrations can be added here as they become available.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience &amp; Leadership</h2>
+    <div class="card">
+      <h3>ACM — Sponsorship &amp; Public Relations</h3>
+      <p>
+        Contributed to sponsorship and public relations activities,
+        developing communication, coordination, and teamwork skills.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Nayi Pehal Welfare Society</h3>
+      <p>
+        Social internship experience, June–July 2024.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>Thank you for visiting my portfolio. Feel free to connect with me.</p>
+    <p><a href="https://linkedin.com/in/sneha-dhir-a01467286"
+      target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+    <p><a href="https://github.com/Snehadhir"
+      target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Sneha Dhir | Personal Portfolio</p>
+  </footer>
+</body>
+</html>
